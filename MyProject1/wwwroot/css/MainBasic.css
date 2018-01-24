@@ -1,2 +1,46 @@
 ﻿body {
+    font-family: 'Times New Roman', Times, serif;
 }
+
+input[type=submit] {
+    width: auto;
+}
+
+input,textarea{
+    font-size: 18px;
+    width: 200px;
+}
+
+label{
+    font-size: 16px;
+}
+
+.theForm{
+    background-color: #c8cfd1;
+}
+
+ul.prod-prop{
+    list-style-type: none;
+    font-size: small;
+}
+
+.prod-info{
+    border: 1px solid gray;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    width: 450px;
+    border-radius: 10px;
+}
+
+.prod-info img{
+    margin: 2px;
+    float: left;
+    max-width: 150px;
+    max-height: 200px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+
+
