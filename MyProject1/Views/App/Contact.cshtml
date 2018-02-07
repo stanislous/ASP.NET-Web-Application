@@ -1,0 +1,21 @@
+﻿@model ContactViewModels
+
+<form method="post">
+    <Label asp-for="Name">UserName: </Label>
+    <br />
+    <input type="text" asp-for="Name"/>
+    <br />
+    <label asp-for="Email">Email:</label>
+    <br />
+    <input type="email" asp-for="Email"/>
+    <br />
+    <label asp-for="Password">Password:</label>
+    <br />
+    <input type="password" asp-for="Password"/>
+    <br />
+    <label asp-for="Message">Messages:</label>
+    <br />
+    <textarea cols="22" rows="6" asp-for="Message"> </textarea>
+    <br />
+    <input type="submit" value="Send Message" />
+    </form>

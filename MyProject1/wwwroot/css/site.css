@@ -6,25 +6,25 @@ input[type=submit] {
     width: auto;
 }
 
-input,textarea{
+input, textarea {
     font-size: 18px;
     width: 200px;
 }
 
-label{
+label {
     font-size: 16px;
 }
 
-.theForm{
+.theForm {
     background-color: #c8cfd1;
 }
 
-ul.prod-prop{
+ul.prod-prop {
     list-style-type: none;
     font-size: small;
 }
 
-.prod-info{
+.prod-info {
     border: 1px solid gray;
     display: inline-block;
     padding: 10px;
@@ -33,14 +33,27 @@ ul.prod-prop{
     border-radius: 10px;
 }
 
-.prod-info img{
-    margin: 2px;
-    float: left;
-    max-width: 150px;
-    max-height: 200px;
-    border: 1px solid black;
-    margin: 10px;
+    .prod-info img {
+        margin: 2px;
+        float: left;
+        max-width: 150px;
+        max-height: 200px;
+        border: 1px solid black;
+        margin: 10px;
+    }
+
+#buyButton {
+    cursor: pointer;
 }
 
+menu li {
+    display: inline;
+}
 
+menu li::after {
+    content: ' |';
+}
 
+menu li:last-of-type::after {
+    content: "";
+}
